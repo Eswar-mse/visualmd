@@ -5,8 +5,9 @@ Linux app runs on your computer, with linked structure and analysis views,
 dark and light themes, and a real demo trajectory.
 
 Explore the [live website](https://7fe4fc54.visualmd.pages.dev/). The Linux x86_64
-download will appear under [Releases](https://github.com/Eswar-mse/visualmd/releases)
-after the clean-install and browser checks in [PROJECT.md](PROJECT.md) pass.
+preview is distributed through [Releases](https://github.com/Eswar-mse/visualmd/releases).
+The remaining cross-distro, GPU, and large-data checks are tracked in
+[PROJECT.md](PROJECT.md); this is a preview release.
 
 ## Download and run
 
