@@ -1,4 +1,4 @@
-Copyright (c) 2026 Eswar. All rights reserved.
+Copyright (c) 2026 Sri Venkata Satya Sai Eswar Moparti. All rights reserved.
 
 The content and website code in this repository are publicly viewable but are
 not offered under an open-source license. You may view the site and download
