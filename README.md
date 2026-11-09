@@ -132,6 +132,7 @@ Investigate structural stability, flexibility, residue interactions, and collect
 <div align="center">
 <h3> Real molecular visualization, powered by Mol* </h3>
 </div>
+<img src="https://github.com/Eswar-mse/visualmd/releases/download/v0.2.1-preview/molecules.gif" alt="" width="100%"/>
 <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
 <div align="center">
 
