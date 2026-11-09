@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/banner(1).gif" />
+  <img src="./banner(1).gif" />
 </div>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=15&duration=3000&pause=100000&color=b7fb82&center=true&vCenter=true&width=900&height=80&lines=SEE+MOLECULAR+MOTION,+FOLLOW+THE+DATA,+AND+EXPORT+THE+STORY,+LOCALLY"/>
@@ -54,7 +54,7 @@
 <h3> A Visual Preview </h3>
 Get a glimpse of VisualMD through this short visual presentation, introducing its design language, molecular visualization concepts, and the vision behind the project.
 
-<img src="assets/demo.gif" />
+<img src="./demo.gif" />
 </div>
 
 > The visuals shown are illustrative representations created for the website and project presentation. They are not screen recordings of the actual application interface and should not be interpreted as demonstrations of implemented functionality or scientific results.
