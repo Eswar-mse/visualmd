@@ -112,6 +112,7 @@ Inspect molecular architecture, and switch between structural representations to
 
 Navigate molecular dynamics trajectories frame by frame and observe how protein conformations evolve over simulation time. Investigate structural changes and explore different conformational states interactively.
 <div>&nbsp;</div>
+<img src="/assets/visual.gif" alt="" width="100%"/>
 
 **Includes**: Frame-by-frame navigation · Trajectory playback · Structural alignment · Conformational inspection
 <div>&nbsp;</div>
