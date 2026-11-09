@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/visualmd_banner.gif" />
+  <img src="assets/banner(1).gif" />
 </div>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=15&duration=3000&pause=100000&color=b7fb82&center=true&vCenter=true&width=900&height=80&lines=SEE+MOLECULAR+MOTION,+FOLLOW+THE+DATA,+AND+EXPORT+THE+STORY,+LOCALLY"/>
@@ -47,16 +47,18 @@
 **Local-First:** Work with molecular dynamics data directly on your Linux system.
 
 </div>
+
 <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
+
 <div align="center">
 <h3> A Visual Preview </h3>
 Get a glimpse of VisualMD through this short visual presentation, introducing its design language, molecular visualization concepts, and the vision behind the project.
 
-
-
+<img src="assets/demo.gif" />
 </div>
 
 > The visuals shown are illustrative representations created for the website and project presentation. They are not screen recordings of the actual application interface and should not be interpreted as demonstrations of implemented functionality or scientific results.
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
 
 ## Install
 
