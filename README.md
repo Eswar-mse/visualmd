@@ -121,42 +121,21 @@ Navigate molecular dynamics trajectories frame by frame and observe how protein 
 
 Investigate structural stability, flexibility, residue interactions, and collective molecular motions through integrated analytical tools and visual representations.
 <div>&nbsp;</div>
+<img src="/assets/analysis.gif" alt="" width="100%"/>
 
 **Includes**: RMSD · RMSF · Radius of gyration · Residue contacts · DCCM · PCA · Free-energy landscapes
 <div>&nbsp;</div>
 
-<h3> Workflow & Export</h3>
 
-Configure your exploration environment, customize analysis parameters, and preserve your results for further investigation, documentation, and scientific communication.
-<div>&nbsp;</div>
-
-**Includes**: Atom selections · Analysis configuration · Reference structures · Figure export · Video export · CSV data · Portable sessions
-<div>&nbsp;</div>
 <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
 
+<div align="center">
+<h3> Real molecular visualization, powered by Mol\* </h3>
+</div>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
 
-### Real molecular visualization, powered by Mol\*
-
-Cartoon, backbone, ball-and-stick, spacefill, lines, points, B-factor putty and molecular surface. Surfaces come in soft, matte, glossy, glass, frosted, metallic and clay finishes, with independent shadow, cavity-shading and outline controls. Viewer backgrounds: black, midnight, white, theme-matched, custom or transparent.
-
-<!-- ASSET: assets/surfaces.png (grid of glass / metallic / frosted / clay finishes) -->
-<img src="assets/surfaces.png" alt="Surface finishes: glass, metallic, frosted and clay" width="100%">
-
-### Residue tools for pocket inspection
-
-Search and tick residues by number, name, chain or segment, then isolate them in the viewer. Surfaces are recalculated from visible atoms only. Optional residue-number restoration maps a trajectory renumbered from 1 back to biological numbering, with the mapping recorded in exports.
-
-<!-- ASSET: assets/residue-pocket.gif (search residues, tick, isolate a pocket) -->
-<img src="assets/residue-pocket.gif" alt="Searching, selecting and isolating residues to inspect a pocket" width="100%">
-
-### Dark and light themes
-
-The dark theme is deliberately near-black so neon scientific colours stand out. A light theme is one click away.
-
-<!-- ASSET: assets/light-theme.png (same view as the hero, light theme) -->
-<img src="assets/light-theme.png" alt="VisualMD in the light theme" width="100%">
-
-## Analyses
+<div align="center">
+<h3> Analyses</h3>
 
 | Analysis | What it gives you |
 | --- | --- |
@@ -172,12 +151,16 @@ The dark theme is deliberately near-black so neon scientific colours stand out. 
 | Hydrogen bonds | Geometric donor-acceptor counts |
 | Protein-ligand distances | Minimum heavy-atom distances |
 
-<!-- ASSET: assets/fel-3d.png (3D PCA or FEL, neon on dark) -->
-<img src="assets/fel-3d.png" alt="3D free-energy landscape" width="100%">
 
-> **Read the landscape responsibly.** The free-energy landscape is an exploratory projection of sampled occupancy. It is **not** a potential-energy surface and not proof of convergence. Unweighted landscapes are blocked for trajectories declared as biased or enhanced sampling, because validated reweighting is not implemented. Per-analysis input notes are in the [documentation](DOCUMENTATION.md#run-and-interpret-analyses).
+**Per-analysis input notes are in the [documentation](DOCUMENTATION.md#run-and-interpret-analyses).** 
 
-## Export
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
+
+
+<div align="center">
+<h3> Export</h3>
 
 | You want | Use |
 | --- | --- |
@@ -188,14 +171,24 @@ The dark theme is deliberately near-black so neon scientific colours stand out. 
 
 These are not interchangeable: images are pictures, CSV/JSON hold the numbers, and a session is a recipe. Details in the [documentation](DOCUMENTATION.md#export-images-video-and-data).
 
-## Inputs and scale
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
+
+<div align="center">
+<h3>Inputs and scale</h3>
 
 - **Verified with real data:** PDB topology + XTC trajectory (including the bundled demo). PDB + DCD and reference-PDB alignment have test coverage.
 - **Growing format support:** VisualMD offers a growing set of MDAnalysis-compatible readers (for example GRO, PSF, PRMTOP, TPR, MOL2, PQR; TRR, NetCDF and others). A recognised extension is not a guarantee that every file variant loads. See [compatibility notes](DOCUMENTATION.md#input-files-and-formats).
 - **Large data path:** direct local transfer of trajectories up to 10 GiB (disk permitting); up to 30,000 retained frames, with larger prepared sets stored on disk and streamed to the browser on demand. A synthetic 30,000-frame API check has passed; a **real 25,000-30,000-frame browser/GPU benchmark is still open**, so treat these as limits, not measured smooth-playback promises.
 - **Preparation:** frame range and stride, prepared atom selection, raw or processed input, source-frame or PDB alignment reference, periodic-boundary fragment unwrapping (when bonds and box data exist), and a memory preview that suggests a safe stride.
 
-## The bundled demo
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
+
+<div align="center">
+<h3> The bundled demo</h3>
 
 The demo is real data from the author's simulation: `demo.pdb` + `demo.xtc`, 290 residues, 4,640 atoms, 5,001 source frames (opened at stride 5, retaining 1,001 frames). Its detailed simulation protocol and equilibrium status are not established in this release, so derived landscapes should be read as exploratory. The website preview uses a reduced version of the same demo.
 
