@@ -121,7 +121,7 @@ Navigate molecular dynamics trajectories frame by frame and observe how protein 
 
 Investigate structural stability, flexibility, residue interactions, and collective molecular motions through integrated analytical tools and visual representations.
 <div>&nbsp;</div>
-<img src="/assets/analysis.gif" alt="" width="100%"/>
+<img src="/assets/analysis.png" alt="" width="100%"/>
 
 **Includes**: RMSD · RMSF · Radius of gyration · Residue contacts · DCCM · PCA · Free-energy landscapes
 <div>&nbsp;</div>
