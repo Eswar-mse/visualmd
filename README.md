@@ -1,4 +1,6 @@
-# VisualMD
+<div align="center">
+  <img src="assets/visualmd_banner.gif" />
+</div>
 
 VisualMD is a local molecular dynamics explorer for protein trajectories. The
 Linux app runs on your computer, with linked structure and analysis views,
