@@ -101,28 +101,36 @@ Verify against the `.sha256` file shipped with the release.
 
 <h3> Molecular Visualisation</h3>
 
-Explore protein structures through interactive 3D visualization. Inspect molecular architecture, examine residues, and switch between structural representations to understand the organization of your system.
+Inspect molecular architecture, and switch between structural representations to understand the organization of your system.
+<div>&nbsp;</div>
+<img src="/assets/reps.png" alt="" width="100%"/>
 
 **Includes**: Interactive 3D structures · Cartoon and atom representations · Residue inspection · Molecular surfaces
 
+<div>&nbsp;</div>
 <h3> Trajectory Exploration</h3>
 
 Navigate molecular dynamics trajectories frame by frame and observe how protein conformations evolve over simulation time. Investigate structural changes and explore different conformational states interactively.
+<div>&nbsp;</div>
 
 **Includes**: Frame-by-frame navigation · Trajectory playback · Structural alignment · Conformational inspection
+<div>&nbsp;</div>
 
 <h3> Molecular Dynamics Analysis</h3>
 
 Investigate structural stability, flexibility, residue interactions, and collective molecular motions through integrated analytical tools and visual representations.
+<div>&nbsp;</div>
 
 **Includes**: RMSD · RMSF · Radius of gyration · Residue contacts · DCCM · PCA · Free-energy landscapes
+<div>&nbsp;</div>
 
 <h3> Workflow & Export</h3>
 
 Configure your exploration environment, customize analysis parameters, and preserve your results for further investigation, documentation, and scientific communication.
+<div>&nbsp;</div>
 
 **Includes**: Atom selections · Analysis configuration · Reference structures · Figure export · Video export · CSV data · Portable sessions
-
+<div>&nbsp;</div>
 <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
 
 
