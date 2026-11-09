@@ -2,32 +2,30 @@
   <img src="assets/visualmd_banner.gif" />
 </div>
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=15&duration=3000&pause=100000&color=b8860b&center=true&vCenter=true&width=900&height=80&lines=SEE+MOLECULAR+MOTION,+FOLLOW+THE+DATA,+AND+EXPORT+THE+STORY,+LOCALLY"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=15&duration=3000&pause=100000&color=b7fb82&center=true&vCenter=true&width=900&height=80&lines=SEE+MOLECULAR+MOTION,+FOLLOW+THE+DATA,+AND+EXPORT+THE+STORY,+LOCALLY"/>
 </p>
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0a0700,50:b8860b,100:0a0700" alt="" width="100%"/>
-
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
 <div align="center">
   
-[![Version](https://img.shields.io/badge/version-v0.2.1--preview-d4a017?style=for-the-badge&labelColor=1a1405)](https://github.com/Eswar-mse/visualmd/releases/tag/v0.2.1-preview)
-[![Platform](https://img.shields.io/badge/platform-Linux%20x86__64-b8860b?style=for-the-badge&logo=linux&logoColor=d4a017&labelColor=1a1405)](#install)
-[![Local-first](https://img.shields.io/badge/local--first-127.0.0.1-9a7b1f?style=for-the-badge&labelColor=1a1405)](#privacy)
-[![License](https://img.shields.io/badge/license-Preview%20EULA-8a6d0b?style=for-the-badge&labelColor=1a1405)](#license)
+[![Version](https://img.shields.io/badge/version-v0.2.1--preview-b7fb82?style=for-the-badge&labelColor=151716)](https://github.com/Eswar-mse/visualmd/releases/tag/v0.2.1-preview)
+[![Platform](https://img.shields.io/badge/platform-Linux%20x86__64-88cc7c?style=for-the-badge&logo=linux&logoColor=b7fb82&labelColor=151716)](#install)
+[![Local-first](https://img.shields.io/badge/local--first-127.0.0.1-a490e8?style=for-the-badge&labelColor=151716)](#privacy)
+[![License](https://img.shields.io/badge/license-Preview%20EULA-5c8854?style=for-the-badge&labelColor=151716)](#license)
 
-[![Python](https://img.shields.io/badge/Python-3.14-b8860b?logo=python&logoColor=d4a017&labelColor=1a1405)](https://www.python.org/)
-[![MDAnalysis](https://img.shields.io/badge/MDAnalysis-2.11.0-b8860b?labelColor=1a1405)](https://www.mdanalysis.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-2.5.4-b8860b?logo=numpy&logoColor=d4a017&labelColor=1a1405)](https://numpy.org/)
-[![SciPy](https://img.shields.io/badge/SciPy-1.18.1-b8860b?logo=scipy&logoColor=d4a017&labelColor=1a1405)](https://scipy.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.162.0-b8860b?logo=fastapi&logoColor=d4a017&labelColor=1a1405)](https://fastapi.tiangolo.com/)
-[![Mol*](https://img.shields.io/badge/Mol*-4.18.0-b8860b?labelColor=1a1405)](https://molstar.org/)
-[![Plotly.js](https://img.shields.io/badge/Plotly.js-3.0.1-b8860b?logo=plotly&logoColor=d4a017&labelColor=1a1405)](https://plotly.com/javascript/)
-[![Vite](https://img.shields.io/badge/Vite-6.4.5-b8860b?logo=vite&logoColor=d4a017&labelColor=1a1405)](https://vite.dev/)
+[![Python](https://img.shields.io/badge/Python-3.14-88cc7c?logo=python&logoColor=b7fb82&labelColor=151716)](https://www.python.org/)
+[![MDAnalysis](https://img.shields.io/badge/MDAnalysis-2.11.0-88cc7c?labelColor=151716)](https://www.mdanalysis.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-2.5.4-88cc7c?logo=numpy&logoColor=b7fb82&labelColor=151716)](https://numpy.org/)
+[![SciPy](https://img.shields.io/badge/SciPy-1.18.1-88cc7c?logo=scipy&logoColor=b7fb82&labelColor=151716)](https://scipy.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.162.0-88cc7c?logo=fastapi&logoColor=b7fb82&labelColor=151716)](https://fastapi.tiangolo.com/)
+[![Mol*](https://img.shields.io/badge/Mol*-4.18.0-88cc7c?labelColor=151716)](https://molstar.org/)
+[![Plotly.js](https://img.shields.io/badge/Plotly.js-3.0.1-88cc7c?logo=plotly&logoColor=b7fb82&labelColor=151716)](https://plotly.com/javascript/)
+[![Vite](https://img.shields.io/badge/Vite-6.4.5-88cc7c?logo=vite&logoColor=b7fb82&labelColor=151716)](https://vite.dev/)
 
-[![Website](https://img.shields.io/badge/-Explore%20the%20website-000000?style=for-the-badge&logo=cloudflarepages&logoColor=white&labelColor=000000)](https://visualmd.pages.dev/)
-[![Download](https://img.shields.io/badge/-Download%20the%20Linux%20preview-000000?style=for-the-badge&logo=linux&logoColor=white&labelColor=000000)](https://github.com/Eswar-mse/visualmd/releases/tag/v0.2.1-preview)
-[![Docs](https://img.shields.io/badge/-Documentation-000000?style=for-the-badge&logo=readthedocs&logoColor=white&labelColor=000000)](DOCUMENTATION.md)
+[![Website](https://img.shields.io/badge/-Explore%20the%20website-0d0e0d?style=for-the-badge&logo=cloudflarepages&logoColor=b7fb82&labelColor=0d0e0d)](https://visualmd.pages.dev/)
+[![Download](https://img.shields.io/badge/-Download%20the%20Linux%20preview-0d0e0d?style=for-the-badge&logo=linux&logoColor=b7fb82&labelColor=0d0e0d)](https://github.com/Eswar-mse/visualmd/releases/tag/v0.2.1-preview)
+[![Docs](https://img.shields.io/badge/-Documentation-0d0e0d?style=for-the-badge&logo=readthedocs&logoColor=b7fb82&labelColor=0d0e0d)](DOCUMENTATION.md)
 
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0a0700,50:b8860b,100:0a0700" alt="" width="100%"/>
-</div>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/></div>
 
 <div align="center">
 <h3>A Unified Workspace for Molecular Dynamics </h3>
@@ -49,43 +47,16 @@
 **Local-First:** Work with molecular dynamics data directly on your Linux system.
 
 </div>
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0a0700,50:b8860b,100:0a0700" alt="" width="100%"/>
-
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
 <div align="center">
-<h3> How It Works </h3>
+<h3> A Visual Preview </h3>
+Get a glimpse of VisualMD through this short visual presentation, introducing its design language, molecular visualization concepts, and the vision behind the project.
 
-VisualMD follows a simple workflow from molecular dynamics input files to interactive structural and analytical exploration.
+
+
 </div>
 
-```mermaid
-flowchart TD
-    A["Input Data<br/>Topology + Trajectory"] --> B["System Preparation<br/>Loading · Alignment · Frame Selection"]
-
-    B --> C["Interactive Molecular Workspace"]
-
-    C --> D["Trajectory Exploration"]
-    C --> E["Structural Analysis"]
-
-    D --> F["Conformational Changes<br/>Frame-by-Frame Inspection"]
-    E --> G["RMSD · RMSF · Rg<br/>Contacts · DCCM · PCA · FEL"]
-
-    F --> H["Integrated Visualization"]
-    G --> H
-
-    H --> I["Export<br/>Plots · Data · Portable Sessions"]
-
-    classDef input fill:#17202c,stroke:#64748b,color:#ffffff,stroke-width:1px
-    classDef process fill:#102b36,stroke:#00bcd4,color:#ffffff,stroke-width:1px
-    classDef analysis fill:#192b46,stroke:#3985ff,color:#ffffff,stroke-width:1px
-    classDef output fill:#263124,stroke:#a3b86c,color:#ffffff,stroke-width:1px
-
-    class A input
-    class B,C,D,F,H process
-    class E,G analysis
-    class I output
-```
-
-> This is a static preview and download page. It does not analyse or receive your trajectories.
+> The visuals shown are illustrative representations created for the website and project presentation. They are not screen recordings of the actual application interface and should not be interpreted as demonstrations of implemented functionality or scientific results.
 
 ## Install
 
