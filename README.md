@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="banner(1).gif" />
+  <img src="banner (1).gif" />
 </div>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=15&duration=3000&pause=100000&color=b7fb82&center=true&vCenter=true&width=900&height=80&lines=SEE+MOLECULAR+MOTION,+FOLLOW+THE+DATA,+AND+EXPORT+THE+STORY,+LOCALLY"/>
@@ -52,7 +52,7 @@
 
 <div align="center">
 <h3> A Visual Preview </h3>
-Get a glimpse of VisualMD through this short visual presentation, introducing its design language, molecular visualization concepts, and the vision behind the project.
+Glimpse of VisualMD through this short visual presentation, and the vision behind the project.
 
 <img src="demo.gif" />
 </div>
@@ -60,7 +60,9 @@ Get a glimpse of VisualMD through this short visual presentation, introducing it
 > The visuals shown are illustrative representations created for the website and project presentation. They are not screen recordings of the actual application interface and should not be interpreted as demonstrations of implemented functionality or scientific results.
 <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
 
-## Install
+<div align="center">
+<h3> Installation </h3>
+</div>
 
 > **Linux x86_64 only** for `v0.2.1-preview`. No system Python or Node.js is needed; the archive bundles its own runtime. The first `./install.sh` needs internet to fetch pinned scientific packages.
 
@@ -91,35 +93,38 @@ Verify against the `.sha256` file shipped with the release.
 
 </details>
 
-## What you can do
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
 
-### One connected workspace
+<div align="center">
+<h3>Explore & Analyze </h3>
+</div>
 
-A resizable protein panel and analysis panel share the selected frame and residues. Click a point in a time plot, PCA cloud or sampled landscape to inspect that frame; click residue-aware plots such as RMSF to highlight the structure.
+<h3> Molecular Visualisation</h3>
 
-<!-- ASSET: assets/linked-click.gif (click a point on RMSD/PCA; the viewer jumps to that frame) -->
-<img src="assets/linked-click.gif" alt="Clicking a plot point jumps the protein to the matching frame" width="100%">
+Explore protein structures through interactive 3D visualization. Inspect molecular architecture, examine residues, and switch between structural representations to understand the organization of your system.
 
-### Legend view: protein first, plot in the corner
+**Includes**: Interactive 3D structures · Cartoon and atom representations · Residue inspection · Molecular surfaces
 
-The protein fills the workspace on black while a smaller live plot advances with playback. Export the same composition as PNG or MP4.
+<h3> Trajectory Exploration</h3>
 
-<table>
-<tr>
-<td width="50%">
+Navigate molecular dynamics trajectories frame by frame and observe how protein conformations evolve over simulation time. Investigate structural changes and explore different conformational states interactively.
 
-<!-- ASSET: assets/legend-view.png -->
-<img src="assets/legend-view.png" alt="Legend view: protein on black with a corner plot">
+**Includes**: Frame-by-frame navigation · Trajectory playback · Structural alignment · Conformational inspection
 
-</td>
-<td width="50%">
+<h3> Molecular Dynamics Analysis</h3>
 
-<!-- ASSET: assets/legend-export.gif (Legend playing, then the exported MP4 as a loop) -->
-<img src="assets/legend-export.gif" alt="Legend view playing and its exported MP4">
+Investigate structural stability, flexibility, residue interactions, and collective molecular motions through integrated analytical tools and visual representations.
 
-</td>
-</tr>
-</table>
+**Includes**: RMSD · RMSF · Radius of gyration · Residue contacts · DCCM · PCA · Free-energy landscapes
+
+<h3> Workflow & Export</h3>
+
+Configure your exploration environment, customize analysis parameters, and preserve your results for further investigation, documentation, and scientific communication.
+
+**Includes**: Atom selections · Analysis configuration · Reference structures · Figure export · Video export · CSV data · Portable sessions
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
+
 
 ### Real molecular visualization, powered by Mol\*
 
