@@ -1,0 +1,38 @@
+name: Bug report
+description: Report a reproducible VisualMD problem
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not upload private structures or trajectories without permission.
+  - type: input
+    id: version
+    attributes:
+      label: VisualMD version
+      placeholder: 0.2.0-preview
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Linux distribution and browser
+    validations:
+      required: true
+  - type: input
+    id: formats
+    attributes:
+      label: Topology and trajectory formats
+      placeholder: PDB + XTC
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: What happened and what you expected
+    validations:
+      required: true

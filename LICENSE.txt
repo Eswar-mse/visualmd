@@ -1,0 +1,11 @@
+Copyright (c) 2026 Eswar. All rights reserved.
+
+The content and website code in this repository are publicly viewable but are
+not offered under an open-source license. You may view the site and download
+official VisualMD releases. Permission to install and use a VisualMD app
+release is granted by the LICENSE.txt included in that release archive.
+
+No permission is granted to modify or redistribute VisualMD-authored website
+code, brand assets, or demo data without prior written permission, except
+where applicable law permits otherwise. Third-party components retain their
+own licenses; see the license files included with them.
