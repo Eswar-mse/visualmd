@@ -4,7 +4,7 @@ VisualMD is a local molecular dynamics explorer for protein trajectories. The
 Linux app runs on your computer, with linked structure and analysis views,
 dark and light themes, and a real demo trajectory.
 
-Explore the [live website](https://visualmd.pages.dev/). The Linux x86_64
+Explore the [live website](https://7fe4fc54.visualmd.pages.dev/). The Linux x86_64
 download will appear under [Releases](https://github.com/Eswar-mse/visualmd/releases)
 after the clean-install and browser checks in [PROJECT.md](PROJECT.md) pass.
 
