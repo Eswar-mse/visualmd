@@ -15,15 +15,16 @@ When a release is available, download its `.tar.gz` archive and matching
 `.sha256` file from the same release page. Verify and extract it:
 
 ```bash
-sha256sum --check visualmd-linux-x86_64-0.2.0-preview.tar.gz.sha256
-tar -xzf visualmd-linux-x86_64-0.2.0-preview.tar.gz
-cd visualmd-linux-x86_64-0.2.0-preview
+sha256sum --check visualmd-linux-x86_64-0.2.1-preview.tar.gz.sha256
+tar -xzf visualmd-linux-x86_64-0.2.1-preview.tar.gz
+cd visualmd-linux-x86_64-0.2.1-preview
 ./install.sh
-./run.sh
+visualmd
 ```
 
 The first installation downloads pinned Python scientific packages. After
-that, VisualMD works locally. The service listens on `127.0.0.1`; trajectories
+that, `visualmd` chooses a free local port and opens the browser automatically.
+The service listens on `127.0.0.1`; trajectories
 are processed on your computer. The archive includes a Python runtime and the
 real `demo.pdb`/`demo.xtc` sample; it needs no system Python or Node.js.
 
