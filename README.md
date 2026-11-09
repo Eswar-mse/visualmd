@@ -130,87 +130,50 @@ Investigate structural stability, flexibility, residue interactions, and collect
 <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
 
 <div align="center">
-<h3> Real molecular visualization, powered by Mol\* </h3>
+<h3> Real molecular visualization, powered by Mol* </h3>
 </div>
 <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
-
 <div align="center">
-<h3> Analyses</h3>
 
-| Analysis | What it gives you |
-| --- | --- |
-| RMSD | Structural deviation over retained frames |
-| RMSF | Per-residue fluctuation |
-| Radius of gyration | Compactness over time |
-| PCA | Dominant motion as a 2D or 3D point cloud |
-| Free-energy landscape | Exploratory occupancy-derived landscape, 2D or 3D |
-| Residue-centre contacts | Contacts under a chosen cutoff |
-| DCCM | Residue displacement correlation |
-| SASA | Solvent-accessible area |
-| Secondary structure | Three-state assignment (MDAnalysis DSSP) |
-| Hydrogen bonds | Geometric donor-acceptor counts |
-| Protein-ligand distances | Minimum heavy-atom distances |
+<h3>Analyses</h3>
 
+[![RMSD](https://img.shields.io/badge/RMSD-14532d?style=for-the-badge)](DOCUMENTATION.md#rmsd)
+[![RMSF](https://img.shields.io/badge/RMSF-14532d?style=for-the-badge)](DOCUMENTATION.md#rmsf)
+[![Radius of gyration](https://img.shields.io/badge/Radius_of_gyration-14532d?style=for-the-badge)](DOCUMENTATION.md#radius-of-gyration)
+[![PCA](https://img.shields.io/badge/PCA-14532d?style=for-the-badge)](DOCUMENTATION.md#pca)
+[![Free-energy landscape](https://img.shields.io/badge/Free--energy_landscape-14532d?style=for-the-badge)](DOCUMENTATION.md#free-energy-landscape)
+[![Residue-centre contacts](https://img.shields.io/badge/Residue--centre_contacts-14532d?style=for-the-badge)](DOCUMENTATION.md#residue-centre-contacts)
+[![DCCM](https://img.shields.io/badge/DCCM-14532d?style=for-the-badge)](DOCUMENTATION.md#dccm)
+[![SASA](https://img.shields.io/badge/SASA-14532d?style=for-the-badge)](DOCUMENTATION.md#sasa)
+[![Secondary structure](https://img.shields.io/badge/Secondary_structure-14532d?style=for-the-badge)](DOCUMENTATION.md#secondary-structure)
+[![Hydrogen bonds](https://img.shields.io/badge/Hydrogen_bonds-14532d?style=for-the-badge)](DOCUMENTATION.md#hydrogen-bonds)
+[![Protein-ligand distances](https://img.shields.io/badge/Protein--ligand_distances-14532d?style=for-the-badge)](DOCUMENTATION.md#protein-ligand-distances)
 
-**Per-analysis input notes are in the [documentation](DOCUMENTATION.md#run-and-interpret-analyses).** 
+**Per-analysis input notes are in the [documentation](DOCUMENTATION.md#run-and-interpret-analyses).**
 
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
 
-
-<div align="center">
-<h3> Export</h3>
-
-| You want | Use |
-| --- | --- |
-| A picture or video for a talk | **PNG** / **MP4**: protein, plot, split view, or Legend with a corner plot (1280×720 or 1920×1080; MP4 at 12, 24 or 30 fps, up to 600 sampled frames) |
-| Numbers for a paper | **CSV** or **JSON** (settings and provenance included) |
-| One frame as coordinates | **Selected-frame PDB** |
-| Pick up where you left off | **`.visualmd`** portable session (stores inputs and recipes; results are **recomputed** on reopen) |
-
-These are not interchangeable: images are pictures, CSV/JSON hold the numbers, and a session is a recipe. Details in the [documentation](DOCUMENTATION.md#export-images-video-and-data).
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
-
-<div align="center">
-<h3>Inputs and scale</h3>
-
-- **Verified with real data:** PDB topology + XTC trajectory (including the bundled demo). PDB + DCD and reference-PDB alignment have test coverage.
-- **Growing format support:** VisualMD offers a growing set of MDAnalysis-compatible readers (for example GRO, PSF, PRMTOP, TPR, MOL2, PQR; TRR, NetCDF and others). A recognised extension is not a guarantee that every file variant loads. See [compatibility notes](DOCUMENTATION.md#input-files-and-formats).
-- **Large data path:** direct local transfer of trajectories up to 10 GiB (disk permitting); up to 30,000 retained frames, with larger prepared sets stored on disk and streamed to the browser on demand. A synthetic 30,000-frame API check has passed; a **real 25,000-30,000-frame browser/GPU benchmark is still open**, so treat these as limits, not measured smooth-playback promises.
-- **Preparation:** frame range and stride, prepared atom selection, raw or processed input, source-frame or PDB alignment reference, periodic-boundary fragment unwrapping (when bonds and box data exist), and a memory preview that suggests a safe stride.
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
-
-<div align="center">
-<h3> The bundled demo</h3>
-
-The demo is real data from the author's simulation: `demo.pdb` + `demo.xtc`, 290 residues, 4,640 atoms, 5,001 source frames (opened at stride 5, retaining 1,001 frames). Its detailed simulation protocol and equilibrium status are not established in this release, so derived landscapes should be read as exploratory. The website preview uses a reduced version of the same demo.
-
-<a id="privacy"></a>
-
-## Privacy
-
-The analysis service listens on `127.0.0.1`. Files you open are processed on your computer and are not uploaded to the VisualMD website. There are no accounts, cloud sync or remote collaboration in this preview. After installation, normal use was verified offline on the author's Linux workstation. Temporary working data lives under `~/.cache/visualmd` by default (override with `VISUALMD_DATA_DIR`) and is removed on normal shutdown.
 
 <a id="license"></a>
-
-## License
+<div align="center">
+<h3>License</h3>
 
 VisualMD is **free to use, but not open source.** The VisualMD Preview End User License grants no-charge use of official, unmodified releases for personal, educational, research and internal commercial purposes. Modification, redistribution, resale and offering VisualMD as a hosted service are restricted. Third-party libraries keep their own licenses; you keep the rights to your own inputs and outputs. The governing terms are in `LICENSE.txt` inside the download.
 
 This public repository holds the launch website, documentation, release information and issue tracker. The application source is private.
+</div>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
 
-## Preview status
+<div align="center">
+<h3> Preview status</h3>
 
 `v0.2.1-preview` is the first public release. The author has verified the downloaded package on a Linux workstation with the demo, their own PDB/XTC data, offline use after setup, surface playback, Legend view, and Legend PNG/MP4 export.
+</div>
 
 Still open, and tracked on the [public project board](https://github.com/users/Eswar-mse/projects/1):
+
 
 - Clean installs on Ubuntu and Fedora
 - A real 25,000-30,000-frame benchmark at full atom detail
@@ -219,31 +182,53 @@ Still open, and tracked on the [public project board](https://github.com/users/E
 - Accessibility and responsive layout
 - Windows and macOS packages (not released yet)
 
-## Documentation
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
 
-Everything beyond this page lives in one place: **[DOCUMENTATION.md](DOCUMENTATION.md)**.
+<div align="center">
 
-| Jump to | |
-| --- | --- |
-| [How VisualMD works](DOCUMENTATION.md#how-visualmd-works) | Architecture and workflow |
-| [Prepare a trajectory](DOCUMENTATION.md#prepare-a-trajectory-correctly) | Frames, stride, atoms, alignment, residue numbering |
-| [Analyses](DOCUMENTATION.md#run-and-interpret-analyses) | What each analysis computes and how to read it |
-| [Formats and limits](DOCUMENTATION.md#large-files-limits-and-storage) | Supported inputs, size limits, storage estimates |
-| [Troubleshooting](DOCUMENTATION.md#troubleshooting) | Common problems and fixes |
-| [FAQ](DOCUMENTATION.md#frequently-asked-questions) | Quick answers |
-| [Current limitations](DOCUMENTATION.md#current-preview-limitations) | What the preview does not do yet |
+<h3>Documentation</h3>
 
-Also: [Releases](https://github.com/Eswar-mse/visualmd/releases) · [Issues](https://github.com/Eswar-mse/visualmd/issues) · [Project board](https://github.com/users/Eswar-mse/projects/1)
+Everything beyond this page lives in one place: **[DOCUMENTATION.md](DOCUMENTATION.md)**
+
+[![How it works](https://img.shields.io/badge/How_it_works-14532d?style=for-the-badge)](DOCUMENTATION.md#how-visualmd-works)
+[![Prepare a trajectory](https://img.shields.io/badge/Prepare_a_trajectory-14532d?style=for-the-badge)](DOCUMENTATION.md#prepare-a-trajectory-correctly)
+[![Analyses](https://img.shields.io/badge/Analyses-14532d?style=for-the-badge)](DOCUMENTATION.md#run-and-interpret-analyses)
+[![Formats & limits](https://img.shields.io/badge/Formats_%26_limits-14532d?style=for-the-badge)](DOCUMENTATION.md#large-files-limits-and-storage)
+[![Troubleshooting](https://img.shields.io/badge/Troubleshooting-14532d?style=for-the-badge)](DOCUMENTATION.md#troubleshooting)
+[![FAQ](https://img.shields.io/badge/FAQ-14532d?style=for-the-badge)](DOCUMENTATION.md#frequently-asked-questions)
+[![Limitations](https://img.shields.io/badge/Limitations-14532d?style=for-the-badge)](DOCUMENTATION.md#current-preview-limitations)
+
+[![Releases](https://img.shields.io/badge/Releases-b7fb82?style=for-the-badge&logo=github&logoColor=b7fb82)](https://github.com/Eswar-mse/visualmd/releases)
+[![Issues](https://img.shields.io/badge/Issues-b7fb82?style=for-the-badge&logo=github&logoColor=14532d)](https://github.com/Eswar-mse/visualmd/issues)
+[![Project board](https://img.shields.io/badge/Project_board-b7fb82?style=for-the-badge&logo=github&logoColor=14532d)](https://github.com/users/Eswar-mse/projects/1)
 
 When reporting a bug, include the VisualMD version, Linux distribution, browser and GPU, topology/trajectory formats, approximate atom/residue/frame counts, exact steps and error text, and whether the bundled demo reproduces it. Please do not post confidential data.
 
-## Built with
+</div>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
 
-Python · MDAnalysis · NumPy · SciPy · FastAPI · Pydantic · Uvicorn · Mol\* · Plotly.js · HTML/CSS/JavaScript (ES modules) · Vite · Geist · Phosphor Icons. Website on Cloudflare Pages; downloads on GitHub Releases.
+<div align="center">
+<h3> Built with</h3>
 
-## Cite
+
+[![Pydantic](https://img.shields.io/badge/Pydantic-data%20validation-14532d?logo=pydantic&logoColor=b7fb82&labelColor=151716)](https://docs.pydantic.dev/)
+[![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI%20server-14532d?logoColor=b7fb82&labelColor=151716)](https://www.uvicorn.org/)
+[![HTML5](https://img.shields.io/badge/HTML5-markup-14532d?logo=html5&logoColor=b7fb82&labelColor=151716)](https://developer.mozilla.org/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-styling-14532d?logo=css3&logoColor=b7fb82&labelColor=151716)](https://developer.mozilla.org/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES%20modules-14532d?logo=javascript&logoColor=b7fb82&labelColor=151716)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![Geist](https://img.shields.io/badge/Geist-typeface-14532d?labelColor=151716)](https://vercel.com/font)
+[![Phosphor Icons](https://img.shields.io/badge/Phosphor-icons-14532d?labelColor=151716)](https://phosphoricons.com/)
+[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-website-14532d?logo=cloudflarepages&logoColor=b7fb82&labelColor=151716)](https://visualmd.pages.dev/)
+[![GitHub Releases](https://img.shields.io/badge/GitHub%20Releases-downloads-14532d?logo=github&logoColor=b7fb82&labelColor=151716)](https://github.com/Eswar-mse/visualmd/releases/tag/v0.2.1-preview)
+
+</div>
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
+
+<div align="center">
+<h3> Cite</h3>
 
 If VisualMD helps your work, please cite it. GitHub's **Cite this repository** button (from [`CITATION.cff`](CITATION.cff)) gives BibTeX and APA.
+</div>
 
 ```bibtex
 @software{moparti_visualmd_2026,
@@ -258,7 +243,11 @@ If VisualMD helps your work, please cite it. GitHub's **Cite this repository** b
 
 Please also cite the libraries you rely on, notably [MDAnalysis](https://www.mdanalysis.org/pages/citations/) and [Mol\*](https://molstar.org/).
 
-## Author and contact
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
+
+<div align="center">
+<h3>Author and contact</h3>
+</div>
 
 **Sri Venkata Satya Sai Eswar Moparti**
 
