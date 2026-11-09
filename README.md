@@ -103,7 +103,7 @@ Verify against the `.sha256` file shipped with the release.
 
 Inspect molecular architecture, and switch between structural representations to understand the organization of your system.
 <div>&nbsp;</div>
-<img src="/assets/reps.png" alt="" width="100%"/>
+<img src="/assets/rep.png" alt="" width="100%"/>
 
 **Includes**: Interactive 3D structures · Cartoon and atom representations · Residue inspection · Molecular surfaces
 
