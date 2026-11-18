@@ -12,14 +12,28 @@
 [![Local-first](https://img.shields.io/badge/local--first-127.0.0.1-a490e8?style=for-the-badge&labelColor=151716)](#privacy)
 [![License](https://img.shields.io/badge/license-Preview%20EULA-5c8854?style=for-the-badge&labelColor=151716)](#license)
 
-[![Python](https://img.shields.io/badge/Python-3.14-88cc7c?logo=python&logoColor=b7fb82&labelColor=151716)](https://www.python.org/)
-[![MDAnalysis](https://img.shields.io/badge/MDAnalysis-2.11.0-88cc7c?labelColor=151716)](https://www.mdanalysis.org/)
-[![NumPy](https://img.shields.io/badge/NumPy-2.5.4-88cc7c?logo=numpy&logoColor=b7fb82&labelColor=151716)](https://numpy.org/)
-[![SciPy](https://img.shields.io/badge/SciPy-1.18.1-88cc7c?logo=scipy&logoColor=b7fb82&labelColor=151716)](https://scipy.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.162.0-88cc7c?logo=fastapi&logoColor=b7fb82&labelColor=151716)](https://fastapi.tiangolo.com/)
-[![Mol*](https://img.shields.io/badge/Mol*-4.18.0-88cc7c?labelColor=151716)](https://molstar.org/)
-[![Plotly.js](https://img.shields.io/badge/Plotly.js-3.0.1-88cc7c?logo=plotly&logoColor=b7fb82&labelColor=151716)](https://plotly.com/javascript/)
-[![Vite](https://img.shields.io/badge/Vite-6.4.5-88cc7c?logo=vite&logoColor=b7fb82&labelColor=151716)](https://vite.dev/)
+<div align="center">
+<h3> Built with</h3>
+  
+[![Python](https://img.shields.io/badge/Python-3.14-14532d?logo=python&logoColor=b7fb82&labelColor=151716)](https://www.python.org/)
+[![MDAnalysis](https://img.shields.io/badge/MDAnalysis-2.11.0-14532d?labelColor=151716)](https://www.mdanalysis.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-2.5.4-14532d?logo=numpy&logoColor=b7fb82&labelColor=151716)](https://numpy.org/)
+[![SciPy](https://img.shields.io/badge/SciPy-1.18.1-14532d?logo=scipy&logoColor=b7fb82&labelColor=151716)](https://scipy.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.162.0-14532d?logo=fastapi&logoColor=b7fb82&labelColor=151716)](https://fastapi.tiangolo.com/)
+[![Mol*](https://img.shields.io/badge/Mol*-4.18.0-14532d?labelColor=151716)](https://molstar.org/)
+[![Plotly.js](https://img.shields.io/badge/Plotly.js-3.0.1-14532d?logo=plotly&logoColor=b7fb82&labelColor=151716)](https://plotly.com/javascript/)
+[![Vite](https://img.shields.io/badge/Vite-6.4.5-14532d?logo=vite&logoColor=b7fb82&labelColor=151716)](https://vite.dev/)
+[![Pydantic](https://img.shields.io/badge/Pydantic-data%20validation-14532d?logo=pydantic&logoColor=b7fb82&labelColor=151716)](https://docs.pydantic.dev/)
+[![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI%20server-14532d?logoColor=b7fb82&labelColor=151716)](https://www.uvicorn.org/)
+[![HTML5](https://img.shields.io/badge/HTML5-markup-14532d?logo=html5&logoColor=b7fb82&labelColor=151716)](https://developer.mozilla.org/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-styling-14532d?logo=css3&logoColor=b7fb82&labelColor=151716)](https://developer.mozilla.org/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES%20modules-14532d?logo=javascript&logoColor=b7fb82&labelColor=151716)](https://developer.mozilla.org/docs/Web/JavaScript)
+[![Geist](https://img.shields.io/badge/Geist-typeface-14532d?labelColor=151716)](https://vercel.com/font)
+[![Phosphor Icons](https://img.shields.io/badge/Phosphor-icons-14532d?labelColor=151716)](https://phosphoricons.com/)
+[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-website-14532d?logo=cloudflarepages&logoColor=b7fb82&labelColor=151716)](https://visualmd.pages.dev/)
+[![GitHub Releases](https://img.shields.io/badge/GitHub%20Releases-downloads-14532d?logo=github&logoColor=b7fb82&labelColor=151716)](https://github.com/Eswar-mse/visualmd/releases/tag/v0.2.1-preview)
+
+</div>
 
 [![Website](https://img.shields.io/badge/-Explore%20the%20website-0d0e0d?style=for-the-badge&logo=cloudflarepages&logoColor=b7fb82&labelColor=0d0e0d)](https://visualmd.pages.dev/)
 [![Download](https://img.shields.io/badge/-Download%20the%20Linux%20preview-0d0e0d?style=for-the-badge&logo=linux&logoColor=b7fb82&labelColor=0d0e0d)](https://github.com/Eswar-mse/visualmd/releases/tag/v0.2.1-preview)
@@ -204,23 +218,6 @@ Everything beyond this page lives in one place: **[DOCUMENTATION.md](DOCUMENTATI
 [![Project board](https://img.shields.io/badge/Project_board-b7fb82?style=for-the-badge&logo=github&logoColor=14532d)](https://github.com/users/Eswar-mse/projects/1)
 
 When reporting a bug, include the VisualMD version, Linux distribution, browser and GPU, topology/trajectory formats, approximate atom/residue/frame counts, exact steps and error text, and whether the bundled demo reproduces it. Please do not post confidential data.
-
-</div>
-<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
-
-<div align="center">
-<h3> Built with</h3>
-
-
-[![Pydantic](https://img.shields.io/badge/Pydantic-data%20validation-14532d?logo=pydantic&logoColor=b7fb82&labelColor=151716)](https://docs.pydantic.dev/)
-[![Uvicorn](https://img.shields.io/badge/Uvicorn-ASGI%20server-14532d?logoColor=b7fb82&labelColor=151716)](https://www.uvicorn.org/)
-[![HTML5](https://img.shields.io/badge/HTML5-markup-14532d?logo=html5&logoColor=b7fb82&labelColor=151716)](https://developer.mozilla.org/docs/Web/HTML)
-[![CSS3](https://img.shields.io/badge/CSS3-styling-14532d?logo=css3&logoColor=b7fb82&labelColor=151716)](https://developer.mozilla.org/docs/Web/CSS)
-[![JavaScript](https://img.shields.io/badge/JavaScript-ES%20modules-14532d?logo=javascript&logoColor=b7fb82&labelColor=151716)](https://developer.mozilla.org/docs/Web/JavaScript)
-[![Geist](https://img.shields.io/badge/Geist-typeface-14532d?labelColor=151716)](https://vercel.com/font)
-[![Phosphor Icons](https://img.shields.io/badge/Phosphor-icons-14532d?labelColor=151716)](https://phosphoricons.com/)
-[![Cloudflare Pages](https://img.shields.io/badge/Cloudflare%20Pages-website-14532d?logo=cloudflarepages&logoColor=b7fb82&labelColor=151716)](https://visualmd.pages.dev/)
-[![GitHub Releases](https://img.shields.io/badge/GitHub%20Releases-downloads-14532d?logo=github&logoColor=b7fb82&labelColor=151716)](https://github.com/Eswar-mse/visualmd/releases/tag/v0.2.1-preview)
 
 </div>
 <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
