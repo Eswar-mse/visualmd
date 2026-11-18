@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="banner (1).gif" />
+  <img src="assets/VisualMD_banner.gif" />
 </div>
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=900&size=15&duration=3000&pause=100000&color=b7fb82&center=true&vCenter=true&width=900&height=80&lines=SEE+MOLECULAR+MOTION,+FOLLOW+THE+DATA,+AND+EXPORT+THE+STORY,+LOCALLY"/>
