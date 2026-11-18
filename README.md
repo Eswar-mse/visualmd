@@ -6,7 +6,16 @@
 </p>
 <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
 <div align="center">
-  
+
+<h3>A Unified Workspace for Molecular Dynamics </h3>
+
+
+**VisualMD** is a local-first molecular dynamics visualization and exploration workspace that brings protein structures, simulation trajectories, and analytical results together in one interactive environment. Instead of switching between multiple applications to inspect structures, navigate trajectories, and interpret simulation data, VisualMD connects these activities within a unified workspace.
+
+
+<img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/>
+
+
 [![Version](https://img.shields.io/badge/version-v0.2.1--preview-b7fb82?style=for-the-badge&labelColor=151716)](https://github.com/Eswar-mse/visualmd/releases/tag/v0.2.1-preview)
 [![Platform](https://img.shields.io/badge/platform-Linux%20x86__64-88cc7c?style=for-the-badge&logo=linux&logoColor=b7fb82&labelColor=151716)](#install)
 [![Local-first](https://img.shields.io/badge/local--first-127.0.0.1-a490e8?style=for-the-badge&labelColor=151716)](#privacy)
@@ -42,11 +51,6 @@
 <img src="https://capsule-render.vercel.app/api?type=rect&height=4&color=0:0d0e0d,50:b7fb82,100:0d0e0d" alt="" width="100%"/></div>
 
 <div align="center">
-<h3>A Unified Workspace for Molecular Dynamics </h3>
-
-
-**VisualMD** is a local-first molecular dynamics visualization and exploration workspace that brings protein structures, simulation trajectories, and analytical results together in one interactive environment. Instead of switching between multiple applications to inspect structures, navigate trajectories, and interpret simulation data, VisualMD connects these activities within a unified workspace.
-
 
 ### Core Capabilities
 
@@ -117,7 +121,25 @@ Verify against the `.sha256` file shipped with the release.
 
 Inspect molecular architecture, and switch between structural representations to understand the organization of your system.
 <div>&nbsp;</div>
-<img src="/assets/rep.png" alt="" width="100%"/>
+<div style="display: flex; flex-direction: column; gap: 16px; width: 100%;">
+  <!-- Row 1 -->
+  <div style="display: flex; gap: 4%; justify-content: space-between;">
+    <img src="assets/1.png" alt="Image 1" style="width: 48%; height: auto;"/>
+    <img src="assets/2.png" alt="Image 2" style="width: 48%; height: auto;"/>
+  </div>
+  
+  <!-- Row 2 -->
+  <div style="display: flex; gap: 4%; justify-content: space-between;">
+    <img src="assets/3.png" alt="Image 3" style="width: 48%; height: auto;"/>
+    <img src="assets/4.png" alt="Image 4" style="width: 48%; height: auto;"/>
+  </div>
+  
+  <!-- Row 3 -->
+  <div style="display: flex; gap: 4%; justify-content: space-between;">
+    <img src="assets/5.png" alt="Image 5" style="width: 48%; height: auto;"/>
+    <img src="assets/6.png" alt="Image 6" style="width: 48%; height: auto;"/>
+  </div>
+</div>
 
 **Includes**: Interactive 3D structures · Cartoon and atom representations · Residue inspection · Molecular surfaces
 
